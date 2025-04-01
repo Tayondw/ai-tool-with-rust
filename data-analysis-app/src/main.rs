@@ -10,5 +10,6 @@ use llm_chain::{executor, parameters, prompt, step::Step};
 #[tokio::main]
 // The return type is set to Result<(), Box<dyn Error>> to enable error propagation with ? and overall error handling across different error types.
 async fn main() -> Result<(), Box<dyn Error>> {
-    // ...
+    
+    let executor = executor!()?;
 }
