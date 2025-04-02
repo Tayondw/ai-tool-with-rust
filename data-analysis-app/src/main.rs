@@ -3,7 +3,7 @@ use std::fs::File;
 use std::io::{ self, Write };
 
 use csv::Reader;
-use dotenvy::dotenv;
+// use dotenvy::dotenv;
 use llm_chain::{ executor, parameters, prompt, step::Step };
 
 #[tokio::main]
